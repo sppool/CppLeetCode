@@ -20,28 +20,28 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Cpp LeetCode\Cpp LeetCode\27. Remove Element.h">
+    <ClInclude Include="14. Longest Common Prefix.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Cpp LeetCode\Cpp LeetCode\46. Permutations.h">
+    <ClInclude Include="15. 3Sum.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Cpp LeetCode\Cpp LeetCode\47. Permutations II.h">
+    <ClInclude Include="27. Remove Element.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Cpp LeetCode\Cpp LeetCode\1. twoSum.h">
+    <ClInclude Include="46. Permutations.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Cpp LeetCode\Cpp LeetCode\9. Palindrome Number.h">
+    <ClInclude Include="47. Permutations II.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Cpp LeetCode\Cpp LeetCode\11. Container With Most Water.h">
+    <ClInclude Include="1. twoSum.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Cpp LeetCode\Cpp LeetCode\14. Longest Common Prefix.h">
+    <ClInclude Include="9. Palindrome Number.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Cpp LeetCode\Cpp LeetCode\15. 3Sum.h">
+    <ClInclude Include="11. Container With Most Water.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
