@@ -150,6 +150,7 @@
     <ClInclude Include="46. Permutations.h" />
     <ClInclude Include="47. Permutations II.h" />
     <ClInclude Include="9. Palindrome Number.h" />
+    <ClInclude Include="17. Letter Combinations of a Phone Number.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

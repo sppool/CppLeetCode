@@ -44,5 +44,8 @@
     <ClInclude Include="11. Container With Most Water.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="17. Letter Combinations of a Phone Number.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
