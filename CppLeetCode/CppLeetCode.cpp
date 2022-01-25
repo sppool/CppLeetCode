@@ -12,19 +12,18 @@ using namespace std;
 
 int main()
 {
-    cout << "========================= Start =========================" << endl;
+	cout << "========================= Start =========================" << endl;
 
-    Solution a;
+	Solution a;
 
-    vector<string> v = a.letterCombinations("25");
+	vector<string> v = a.letterCombinations("23");
 
-    for (int i = 0; i < v.size(); i++)
-    {
-        cout<<v[i] << endl;
-    }
+	for (int i = 0; i < v.size(); i++)
+	{
+		cout << v[i] << endl;
+	}
 
-
-    cout << "========================== End ==========================" << endl;
+	cout << "========================== End ==========================" << endl;
 
 }
 
