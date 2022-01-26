@@ -152,6 +152,7 @@
     <ClInclude Include="9. Palindrome Number.h" />
     <ClInclude Include="17. Letter Combinations of a Phone Number.h" />
     <ClInclude Include="26. Remove Duplicates from Sorted Array.h" />
+    <ClInclude Include="66. Plus One.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
