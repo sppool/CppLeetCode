@@ -154,6 +154,7 @@
     <ClInclude Include="26. Remove Duplicates from Sorted Array.h" />
     <ClInclude Include="66. Plus One.h" />
     <ClInclude Include="54. Spiral Matrix.h" />
+    <ClInclude Include="43. Multiply Strings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

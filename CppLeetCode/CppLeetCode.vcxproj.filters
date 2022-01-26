@@ -56,5 +56,8 @@
     <ClInclude Include="54. Spiral Matrix.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="43. Multiply Strings.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
