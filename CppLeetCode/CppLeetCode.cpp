@@ -7,21 +7,13 @@ using namespace std;
 #include <algorithm>
 #include <vector>
 #include <map>
-#include "17. Letter Combinations of a Phone Number.h"
 
 
 int main()
 {
 	cout << "========================= Start =========================" << endl;
 
-	Solution a;
 
-	vector<string> v = a.letterCombinations("23");
-
-	for (int i = 0; i < v.size(); i++)
-	{
-		cout << v[i] << endl;
-	}
 
 	cout << "========================== End ==========================" << endl;
 
