@@ -47,5 +47,8 @@
     <ClInclude Include="17. Letter Combinations of a Phone Number.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="26. Remove Duplicates from Sorted Array.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
