@@ -15,19 +15,6 @@ int main()
 	cout << "========================= Start =========================" << endl;
 
 
-	Solution a;
-
-	vector<vector<int>> v = a.GetArr("135", "248");
-
-	for (int i = 0; i < v.size(); i++)
-	{
-		cout << "--- " << i  << endl;
-		for (int j = 0; j < v[i].size(); j++)
-		{
-			cout << v[i][j] << endl;
-		}
-	}
-
 
 	cout << "========================== End ==========================" << endl;
 }

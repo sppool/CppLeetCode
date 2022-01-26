@@ -1,3 +1,6 @@
+//Runtime: 101 ms, faster than 12.93 % of C++ online submissions for Multiply Strings.
+//Memory Usage: 24.7 MB, less than 11.83 % of C++ online submissions for Multiply Strings.
+
 #pragma once
 
 #include <iostream>
@@ -11,13 +14,33 @@ class Solution
 public:
 	string multiply(string num1, string num2)
 	{
-		vector<vector<int>> tmp = GetArr(num1, num2);
+		if (num1 == "0" || num2 == "0")
+			return "0";
 
+		vector<vector<int>> arr = GetArr(num1, num2);
+		vector<int> sumArr = GetArrSum(arr);
+		ArrCarry(sumArr);
 
+		string res = "";
+		for (int i = sumArr.size() - 1; i >= 0; i--)
+		{
+			res += to_string(sumArr[i]);
+		}
+
+		// 刪除前面的0
+		int i = 0;
+		while (res[i] == '0')
+		{
+			i++;
+		}
+		res = res.substr(i);
+
+		return res;
 	}
 
 	vector<vector<int>> GetArr(string num1, string num2)
 	{
+
 		int n = num1.size() + num2.size() - 1;
 		int z = 0;
 		vector<vector<int>> arr;
@@ -54,10 +77,35 @@ public:
 	vector<int> GetArrSum(vector<vector<int>> v)
 	{
 		vector<int> res;
-
-	
+		int val;
+		for (int i = 0; i < v[0].size(); i++)
+		{
+			val = 0;
+			for (int j = 0; j < v.size(); j++)
+			{
+				val += v[j][i];
+			}
+			res.push_back(val);
+		}
 
 		return res;
 	}
 
+	void ArrCarry(vector<int>& v)
+	{
+		v.push_back(0); // 進位使用
+		int val;
+		int ind;
+		for (int i = 0; i < v.size(); i++)
+		{
+			ind = 1;
+			val = v[i];
+			while ((val / (int)pow(10, ind)) != 0)
+			{
+				v[i + ind] += (val / (int)pow(10, ind) % 10); // 進位數
+				ind++;
+			}
+			v[i] = val % 10;
+		}
+	}
 };
