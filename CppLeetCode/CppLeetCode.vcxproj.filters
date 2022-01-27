@@ -62,5 +62,8 @@
     <ClInclude Include="50. Pow%28x, n%29.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="48. Rotate Image.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

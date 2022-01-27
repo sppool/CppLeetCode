@@ -7,13 +7,25 @@ using namespace std;
 #include <algorithm>
 #include <vector>
 #include <map>
-
+#include "48. Rotate Image.h"
 
 int main()
 {
 	cout << "========================= Start =========================" << endl;
+	vector<vector<int>> v = { {1, 2, 3}, {4, 5, 6} , {7, 8, 9} };
+	Solution a;
+	a.rotate(v);
 
 
+	cout << "=========================" << endl;
+	for (int i = 0; i < v.size(); i++)
+	{
+		for (int j = 0; j < v.size(); j++)
+		{
+			cout << v[i][j];
+		}
+		cout << endl;
+	}
 
 	cout << "========================== End ==========================" << endl;
 }
