@@ -3,18 +3,19 @@
 
 #include <iostream>
 using namespace std;
-
 #include <algorithm>
+#include <string>
 #include <vector>
 #include <map>
-#include "43. Multiply Strings.h"
 
+#include "7. Reverse Integer.h"
 
 int main()
 {
 	cout << "========================= Start =========================" << endl;
 
-
+	Solution a;
+	cout << a.reverse() << endl;
 
 	cout << "========================== End ==========================" << endl;
 }
