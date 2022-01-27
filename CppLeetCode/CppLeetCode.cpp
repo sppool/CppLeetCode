@@ -7,7 +7,6 @@ using namespace std;
 #include <algorithm>
 #include <vector>
 #include <map>
-#include "43. Multiply Strings.h"
 
 
 int main()

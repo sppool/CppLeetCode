@@ -155,6 +155,7 @@
     <ClInclude Include="66. Plus One.h" />
     <ClInclude Include="54. Spiral Matrix.h" />
     <ClInclude Include="43. Multiply Strings.h" />
+    <ClInclude Include="50. Pow%28x, n%29.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
