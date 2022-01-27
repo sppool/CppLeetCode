@@ -8,14 +8,14 @@ using namespace std;
 #include <vector>
 #include <map>
 
-#include "7. Reverse Integer.h"
-
 int main()
 {
+	// 1233 4 5567
 	cout << "========================= Start =========================" << endl;
 
-	Solution a;
-	cout << a.reverse() << endl;
+
+	cout << "" << endl;
+
 
 	cout << "========================== End ==========================" << endl;
 }
