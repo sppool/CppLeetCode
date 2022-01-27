@@ -59,5 +59,32 @@
     <ClInclude Include="43. Multiply Strings.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="50. Pow%28x, n%29.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="48. Rotate Image.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="7. Reverse Integer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header3.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header4.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header5.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header0.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
