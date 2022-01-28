@@ -68,10 +68,10 @@
     <ClInclude Include="7. Reverse Integer.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header2.h">
+    <ClInclude Include="977. Squares of a Sorted Array.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header3.h">
+    <ClInclude Include="867. Transpose Matrix.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header4.h">
@@ -83,7 +83,7 @@
     <ClInclude Include="4. Median of Two Sorted Arrays.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header1.h">
+    <ClInclude Include="21. Merge Two Sorted Lists.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

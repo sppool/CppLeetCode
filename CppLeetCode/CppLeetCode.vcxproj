@@ -159,9 +159,9 @@
     <ClInclude Include="48. Rotate Image.h" />
     <ClInclude Include="7. Reverse Integer.h" />
     <ClInclude Include="4. Median of Two Sorted Arrays.h" />
-    <ClInclude Include="Header1.h" />
-    <ClInclude Include="Header2.h" />
-    <ClInclude Include="Header3.h" />
+    <ClInclude Include="21. Merge Two Sorted Lists.h" />
+    <ClInclude Include="977. Squares of a Sorted Array.h" />
+    <ClInclude Include="867. Transpose Matrix.h" />
     <ClInclude Include="Header4.h" />
     <ClInclude Include="Header5.h" />
   </ItemGroup>

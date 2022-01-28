@@ -31,7 +31,7 @@ public:
 
 			for (int i = 0; i < digits.size(); i++)
 			{
-				p = pool(p, n, digits[i]);
+				p = func(p, n, digits[i]);
 			}
 
 			for (int i = 0; i < n; i++)
@@ -44,7 +44,7 @@ public:
 		}
 	}
 
-	string* pool(string in[], int& in_len, char c)
+	string* func(string in[], int& in_len, char c)
 	{
 		int len = dict[c].size();
 
