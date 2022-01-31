@@ -33,11 +33,8 @@ public:
 			return lists[0];
 		}
 
-		if (lists.size() == 2)
-		{
-			return  mergeTwoLists(lists[0], lists[1]);
-		}
 
+		// lists 中超過兩個兩兩整合 在遞迴!!
 		vector<ListNode*> res;
 
 		for (int i = 0; i < (lists.size() / 2); i++)
@@ -56,16 +53,11 @@ public:
 
 	ListNode* mergeTwoLists(ListNode* list1, ListNode* list2)
 	{
-		if (!list1 || !list2)
-		{
-			return list1 ? list1 : list2;
-		}
-
 		// 弄一個假開頭去找最小值接上
-		ListNode fake_first = ListNode();
-		ConnectNext(&fake_first, list1, list2);
+		ListNode root = ListNode();
+		ConnectNext(&root, list1, list2);
 
-		return fake_first.next;
+		return root.next;
 	}
 
 	void ConnectNext(ListNode* st, ListNode* list1, ListNode* list2)

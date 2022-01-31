@@ -8,27 +8,25 @@ using namespace std;
 #include <vector>
 #include <map>
 
-#include "23. Merge k Sorted Lists.h"
+#include "2. Add Two Numbers.h"
 
 int main()
 {
 	cout << "========================= Start =========================" << endl;
-	ListNode a3 = ListNode(5);
+	ListNode a3 = ListNode(3);
 	ListNode a2 = ListNode(4, &a3);
-	ListNode a1 = ListNode(1, &a2);
+	ListNode a1 = ListNode(2, &a2);
 
 	ListNode b3 = ListNode(4);
-	ListNode b2 = ListNode(3, &b3);
-	ListNode b1 = ListNode(1, &b2);
+	ListNode b2 = ListNode(6, &b3);
+	ListNode b1 = ListNode(5, &b2);
 
-	ListNode c2 = ListNode(6);
-	ListNode c1 = ListNode(2, &c2);
 
-	vector<ListNode*>v = { &a1, &b1, &c1 };
 
 	Solution ans;
 
-	ans.mergeKLists(v);
+
+	ans.addTwoNumbers(&a1, &b1);
 
 
 

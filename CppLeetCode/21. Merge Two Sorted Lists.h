@@ -20,16 +20,11 @@ class Solution {
 public:
 	ListNode* mergeTwoLists(ListNode* list1, ListNode* list2)
 	{
-		if (!list1 || !list2)
-		{
-			return list1 ? list1 : list2;
-		}
-
 		// 弄一個假開頭去找最小值接上
-		ListNode fake_first = ListNode();
-		ConnectNext(&fake_first, list1, list2);
+		ListNode root = ListNode();
+		ConnectNext(&root, list1, list2);
 
-		return fake_first.next;
+		return root.next;
 	}
 
 	void ConnectNext(ListNode* st, ListNode* list1, ListNode* list2)

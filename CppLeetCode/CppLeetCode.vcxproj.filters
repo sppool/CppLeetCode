@@ -77,13 +77,25 @@
     <ClInclude Include="23. Merge k Sorted Lists.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header5.h">
+    <ClInclude Include="2. Add Two Numbers.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="4. Median of Two Sorted Arrays.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="21. Merge Two Sorted Lists.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header3.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header4.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header2.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
