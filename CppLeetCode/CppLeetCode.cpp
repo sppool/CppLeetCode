@@ -8,11 +8,29 @@ using namespace std;
 #include <vector>
 #include <map>
 
+#include "23. Merge k Sorted Lists.h"
+
 int main()
 {
 	cout << "========================= Start =========================" << endl;
+	ListNode a3 = ListNode(5);
+	ListNode a2 = ListNode(4, &a3);
+	ListNode a1 = ListNode(1, &a2);
 
-	Solution a;
+	ListNode b3 = ListNode(4);
+	ListNode b2 = ListNode(3, &b3);
+	ListNode b1 = ListNode(1, &b2);
+
+	ListNode c2 = ListNode(6);
+	ListNode c1 = ListNode(2, &c2);
+
+	vector<ListNode*>v = { &a1, &b1, &c1 };
+
+	Solution ans;
+
+	ans.mergeKLists(v);
+
+
 
 	cout << "========================== End ==========================" << endl;
 }
@@ -27,3 +45,4 @@ int main()
 //   4. 使用 [錯誤清單] 視窗，檢視錯誤
 //   5. 前往 [專案] > [新增項目]，建立新的程式碼檔案，或是前往 [專案] > [新增現有項目]，將現有程式碼檔案新增至專案
 //   6. 之後要再次開啟此專案時，請前往 [檔案] > [開啟] > [專案]，然後選取 .sln 檔案
+
