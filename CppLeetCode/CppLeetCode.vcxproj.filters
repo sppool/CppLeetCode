@@ -92,10 +92,10 @@
     <ClInclude Include="Header4.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header1.h">
+    <ClInclude Include="24. Swap Nodes in Pairs.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header2.h">
+    <ClInclude Include="59. Spiral Matrix II.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
