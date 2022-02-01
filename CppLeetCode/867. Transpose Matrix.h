@@ -25,6 +25,7 @@ public:
 			}
 			res.push_back(tmp[i]);
 		}
+		delete[] tmp;
 
 		return res;
 	}

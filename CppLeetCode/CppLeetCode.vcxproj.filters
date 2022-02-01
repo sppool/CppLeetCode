@@ -86,16 +86,19 @@
     <ClInclude Include="21. Merge Two Sorted Lists.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header3.h">
+    <ClInclude Include="33. Search in Rotated Sorted Array.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header4.h">
+    <ClInclude Include="34. Find First and Last Position of Element in Sorted Array.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="24. Swap Nodes in Pairs.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="59. Spiral Matrix II.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="35. Search Insert Position.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

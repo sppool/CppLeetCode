@@ -8,27 +8,16 @@ using namespace std;
 #include <vector>
 #include <map>
 
-#include "2. Add Two Numbers.h"
+#include "35. Search Insert Position.h"
 
 int main()
 {
 	cout << "========================= Start =========================" << endl;
-	ListNode a3 = ListNode(3);
-	ListNode a2 = ListNode(4, &a3);
-	ListNode a1 = ListNode(2, &a2);
-
-	ListNode b3 = ListNode(4);
-	ListNode b2 = ListNode(6, &b3);
-	ListNode b1 = ListNode(5, &b2);
-
-
+	
+	vector<int> v = vector<int>{ 1, 3, 5, 6 };
 
 	Solution ans;
-
-
-	ans.addTwoNumbers(&a1, &b1);
-
-
+	ans.searchInsert(v, 5);
 
 	cout << "========================== End ==========================" << endl;
 }

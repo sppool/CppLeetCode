@@ -165,9 +165,10 @@
     <ClInclude Include="23. Merge k Sorted Lists.h" />
     <ClInclude Include="24. Swap Nodes in Pairs.h" />
     <ClInclude Include="59. Spiral Matrix II.h" />
-    <ClInclude Include="Header3.h" />
-    <ClInclude Include="Header4.h" />
+    <ClInclude Include="33. Search in Rotated Sorted Array.h" />
+    <ClInclude Include="34. Find First and Last Position of Element in Sorted Array.h" />
     <ClInclude Include="2. Add Two Numbers.h" />
+    <ClInclude Include="35. Search Insert Position.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
