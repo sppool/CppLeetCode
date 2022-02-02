@@ -173,8 +173,8 @@
     <ClInclude Include="61. Rotate List.h" />
     <ClInclude Include="62. Unique Paths.h" />
     <ClInclude Include="63. Unique Paths II.h" />
-    <ClInclude Include="Header4.h" />
-    <ClInclude Include="Header5.h" />
+    <ClInclude Include="41. First Missing Positive.h" />
+    <ClInclude Include="42. Trapping Rain Water.h" />
     <ClInclude Include="Header6.h" />
     <ClInclude Include="Header7.h" />
     <ClInclude Include="Header8.h" />

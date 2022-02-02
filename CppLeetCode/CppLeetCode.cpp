@@ -8,18 +8,16 @@ using namespace std;
 #include <vector>
 #include <map>
 
-#include "63. Unique Paths II.h"
+#include "42. Trapping Rain Water.h"
 
 int main()
 {
 	cout << "========================= Start =========================" << endl;
-
-
-	vector<vector<int>> v = vector<vector<int>>{ {0, 0, 0}, {0, 1, 0}, {0, 0, 0} };
-
+	vector<int> v = vector<int>{ 2, 0, 2 };
 
 	Solution ans;
-	ans.uniquePathsWithObstacles(v);
+	ans.trap(v);
+
 
 	cout << "========================== End ==========================" << endl;
 }

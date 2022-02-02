@@ -107,10 +107,10 @@
     <ClInclude Include="63. Unique Paths II.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header4.h">
+    <ClInclude Include="41. First Missing Positive.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header5.h">
+    <ClInclude Include="42. Trapping Rain Water.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header6.h">
