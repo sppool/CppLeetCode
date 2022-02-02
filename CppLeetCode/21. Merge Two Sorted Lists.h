@@ -1,5 +1,5 @@
 //Runtime: 4 ms, faster than 94.73 % of C++ online submissions for Merge Two Sorted Lists.
-//Memory Usage :14.9 MB, less than 44.70 % of C++ online submissions for Merge Two Sorted Lists.
+//Memory Usage: 14.9 MB, less than 44.70 % of C++ online submissions for Merge Two Sorted Lists.
 
 #pragma once
 

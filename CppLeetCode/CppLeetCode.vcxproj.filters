@@ -101,5 +101,32 @@
     <ClInclude Include="35. Search Insert Position.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="62. Unique Paths.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="63. Unique Paths II.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header4.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header5.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header6.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header7.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header8.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="20. Valid Parentheses.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="61. Rotate List.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

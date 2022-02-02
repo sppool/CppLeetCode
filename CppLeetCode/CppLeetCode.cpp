@@ -8,16 +8,18 @@ using namespace std;
 #include <vector>
 #include <map>
 
-#include "35. Search Insert Position.h"
+#include "63. Unique Paths II.h"
 
 int main()
 {
 	cout << "========================= Start =========================" << endl;
-	
-	vector<int> v = vector<int>{ 1, 3, 5, 6 };
+
+
+	vector<vector<int>> v = vector<vector<int>>{ {0, 0, 0}, {0, 1, 0}, {0, 0, 0} };
+
 
 	Solution ans;
-	ans.searchInsert(v, 5);
+	ans.uniquePathsWithObstacles(v);
 
 	cout << "========================== End ==========================" << endl;
 }

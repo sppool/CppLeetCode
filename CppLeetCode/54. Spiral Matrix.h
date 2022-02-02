@@ -58,7 +58,6 @@ public:
 		}
 		while (res.size() > (w * h)) // 會多一排 刪除
 		{
-
 			res.pop_back();
 		}
 
