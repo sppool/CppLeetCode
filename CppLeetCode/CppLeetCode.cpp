@@ -8,16 +8,18 @@ using namespace std;
 #include <vector>
 #include <map>
 
-#include "42. Trapping Rain Water.h"
+#include "51. N-Queens.h"
 
 int main()
 {
 	cout << "========================= Start =========================" << endl;
-	vector<int> v = vector<int>{ 2, 0, 2 };
+
+	cout << sizeof(true)<<endl;
+	string s = "0123456789";
+
+	cout << s << endl;
 
 	Solution ans;
-	ans.trap(v);
-
 
 	cout << "========================== End ==========================" << endl;
 }

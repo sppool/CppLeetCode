@@ -175,8 +175,8 @@
     <ClInclude Include="63. Unique Paths II.h" />
     <ClInclude Include="41. First Missing Positive.h" />
     <ClInclude Include="42. Trapping Rain Water.h" />
-    <ClInclude Include="Header6.h" />
-    <ClInclude Include="Header7.h" />
+    <ClInclude Include="51. N-Queens.h" />
+    <ClInclude Include="52. N-Queens II.h" />
     <ClInclude Include="Header8.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

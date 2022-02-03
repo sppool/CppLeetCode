@@ -113,10 +113,10 @@
     <ClInclude Include="42. Trapping Rain Water.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header6.h">
+    <ClInclude Include="51. N-Queens.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header7.h">
+    <ClInclude Include="52. N-Queens II.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header8.h">
