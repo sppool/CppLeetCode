@@ -14,11 +14,6 @@ int main()
 {
 	cout << "========================= Start =========================" << endl;
 
-	cout << sizeof(true)<<endl;
-	string s = "0123456789";
-
-	cout << s << endl;
-
 	Solution ans;
 
 	cout << "========================== End ==========================" << endl;
