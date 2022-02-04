@@ -155,7 +155,7 @@
     <ClInclude Include="83. Remove Duplicates from Sorted List.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header1.h">
+    <ClInclude Include="64. Minimum Path Sum.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header2.h">

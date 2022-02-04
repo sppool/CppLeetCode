@@ -180,7 +180,7 @@
     <ClInclude Include="53. Maximum Subarray.h" />
     <ClInclude Include="82. Remove Duplicates from Sorted List II.h" />
     <ClInclude Include="83. Remove Duplicates from Sorted List.h" />
-    <ClInclude Include="Header1.h" />
+    <ClInclude Include="64. Minimum Path Sum.h" />
     <ClInclude Include="Header2.h" />
     <ClInclude Include="Header3.h" />
     <ClInclude Include="Header4.h" />
