@@ -15,7 +15,7 @@ public:
 		int n = nums.size();
 
 		int sum = nums[0];
-		int tmp = nums[0];
+		int max = nums[0];
 		for (int i = 1; i < n; i++)
 		{
 			if (sum < 0)
@@ -27,13 +27,13 @@ public:
 				sum += nums[i];
 			}
 
-			if (sum > tmp)
+			if (sum > max)
 			{
-				tmp = sum;
+				max = sum;
 			}
 		}
 
-		return tmp;
+		return max;
 	}
 };
 
