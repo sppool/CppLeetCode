@@ -181,9 +181,9 @@
     <ClInclude Include="82. Remove Duplicates from Sorted List II.h" />
     <ClInclude Include="83. Remove Duplicates from Sorted List.h" />
     <ClInclude Include="64. Minimum Path Sum.h" />
-    <ClInclude Include="Header2.h" />
-    <ClInclude Include="Header3.h" />
-    <ClInclude Include="Header4.h" />
+    <ClInclude Include="160. Intersection of Two Linked Lists.h" />
+    <ClInclude Include="136. Single Number.h" />
+    <ClInclude Include="137. Single Number II.h" />
     <ClInclude Include="Header5.h" />
     <ClInclude Include="Header6.h" />
     <ClInclude Include="Header7.h" />
