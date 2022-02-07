@@ -184,10 +184,10 @@
     <ClInclude Include="160. Intersection of Two Linked Lists.h" />
     <ClInclude Include="136. Single Number.h" />
     <ClInclude Include="137. Single Number II.h" />
-    <ClInclude Include="Header5.h" />
-    <ClInclude Include="Header6.h" />
-    <ClInclude Include="Header7.h" />
-    <ClInclude Include="Header8.h" />
+    <ClInclude Include="70. Climbing Stairs.h" />
+    <ClInclude Include="74. Search a 2D Matrix.h" />
+    <ClInclude Include="78. Subsets.h" />
+    <ClInclude Include="77. Combinations.h" />
     <ClInclude Include="Header9.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

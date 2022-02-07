@@ -137,16 +137,16 @@
     <ClInclude Include="137. Single Number II.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header5.h">
+    <ClInclude Include="70. Climbing Stairs.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header6.h">
+    <ClInclude Include="74. Search a 2D Matrix.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header7.h">
+    <ClInclude Include="78. Subsets.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header8.h">
+    <ClInclude Include="77. Combinations.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header9.h">
