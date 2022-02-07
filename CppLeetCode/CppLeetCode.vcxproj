@@ -192,7 +192,7 @@
     <ClInclude Include="122. Best Time to Buy and Sell Stock II.h" />
     <ClInclude Include="509. Fibonacci Number.h" />
     <ClInclude Include="1137. N-th Tribonacci Number.h" />
-    <ClInclude Include="Header4.h" />
+    <ClInclude Include="746. Min Cost Climbing Stairs.h" />
     <ClInclude Include="Header5.h" />
     <ClInclude Include="Header6.h" />
     <ClInclude Include="Header7.h" />

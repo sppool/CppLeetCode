@@ -161,7 +161,7 @@
     <ClInclude Include="160. Intersection of Two Linked Lists.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header4.h">
+    <ClInclude Include="746. Min Cost Climbing Stairs.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header5.h">
