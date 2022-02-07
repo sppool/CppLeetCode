@@ -5,15 +5,11 @@ using namespace std;
 #include <vector>
 #include <map>
 
-#include "77. Combinations.h"
-
-
 int main()
 {
 	cout << "============================ Start ============================" << endl;
 
-	Solution ans;
-	ans.combine(20, 16);
+	//Solution ans;
 
 	cout << "============================= End =============================" << endl;
 }
