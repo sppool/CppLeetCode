@@ -167,10 +167,10 @@
     <ClInclude Include="198. House Robber.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header6.h">
+    <ClInclude Include="213. House Robber II.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header7.h">
+    <ClInclude Include="740. Delete and Earn.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header8.h">
