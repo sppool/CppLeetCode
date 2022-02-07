@@ -10,7 +10,7 @@ using namespace std;
 class Solution
 {
 public:
-	int minCostClimbingStairs(vector<int>& cost)
+	int minCostClimbingStairs(vector<int>& cost) // 走到第幾步前的最小cost
 	{
 		int n = cost.size();
 		int cost2 = cost[0]; // cost前2步
