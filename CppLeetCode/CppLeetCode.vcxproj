@@ -197,7 +197,7 @@
     <ClInclude Include="213. House Robber II.h" />
     <ClInclude Include="740. Delete and Earn.h" />
     <ClInclude Include="55. Jump Game.h" />
-    <ClInclude Include="Header0.h" />
+    <ClInclude Include="202. Happy Number.h" />
     <ClInclude Include="Header1.h" />
     <ClInclude Include="Header2.h" />
     <ClInclude Include="Header3.h" />
@@ -205,8 +205,8 @@
     <ClInclude Include="Header5.h" />
     <ClInclude Include="Header6.h" />
     <ClInclude Include="Header7.h" />
-    <ClInclude Include="Header8.h" />
-    <ClInclude Include="Header9.h" />
+    <ClInclude Include="119. Pascal%27s Triangle II.h" />
+    <ClInclude Include="118. Pascal%27s Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

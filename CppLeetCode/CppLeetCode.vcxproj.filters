@@ -149,7 +149,7 @@
     <ClInclude Include="77. Combinations.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header9.h">
+    <ClInclude Include="118. Pascal%27s Triangle.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="83. Remove Duplicates from Sorted List.h">
@@ -188,7 +188,7 @@
     <ClInclude Include="1137. N-th Tribonacci Number.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header0.h">
+    <ClInclude Include="202. Happy Number.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header1.h">
@@ -212,7 +212,7 @@
     <ClInclude Include="Header7.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header8.h">
+    <ClInclude Include="119. Pascal%27s Triangle II.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
