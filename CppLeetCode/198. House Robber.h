@@ -24,13 +24,11 @@ public:
 		int arr_no = 0;
 		int arr_yes = nums[0];
 		int tmp_no;
-		int tmp_yes;
 
 		for (int i = 1; i < n; i++)
 		{
 			tmp_no = arr_no;
-			tmp_yes = arr_yes;
-			arr_no = (tmp_no < tmp_yes) ? tmp_yes : tmp_no;
+			arr_no = (arr_no < arr_yes) ? arr_yes : arr_no;
 			arr_yes = tmp_no + nums[i];
 		}
 		int res = (arr_no < arr_yes) ? arr_yes : arr_no;
