@@ -197,13 +197,13 @@
     <ClInclude Include="Header2.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header3.h">
+    <ClInclude Include="190. Reverse Bits.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header4.h">
+    <ClInclude Include="171. Excel Sheet Column Number.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header5.h">
+    <ClInclude Include="237. Delete Node in a Linked List.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="120. Triangle.h">

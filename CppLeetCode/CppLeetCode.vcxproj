@@ -200,9 +200,9 @@
     <ClInclude Include="202. Happy Number.h" />
     <ClInclude Include="Header1.h" />
     <ClInclude Include="Header2.h" />
-    <ClInclude Include="Header3.h" />
-    <ClInclude Include="Header4.h" />
-    <ClInclude Include="Header5.h" />
+    <ClInclude Include="190. Reverse Bits.h" />
+    <ClInclude Include="171. Excel Sheet Column Number.h" />
+    <ClInclude Include="237. Delete Node in a Linked List.h" />
     <ClInclude Include="120. Triangle.h" />
     <ClInclude Include="45. Jump Game II.h" />
     <ClInclude Include="119. Pascal%27s Triangle II.h" />
