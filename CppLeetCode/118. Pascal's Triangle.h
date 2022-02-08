@@ -1,6 +1,5 @@
 //Runtime: 0 ms, faster than 100.00 % of C++ online submissions for Pascal's Triangle.
-//Memory Usage: 6.6 MB, less than 33.41 % of C++ online submissions for Pascal's Triangle.
-
+//Memory Usage: 6.5 MB, less than 33.41 % of C++ online submissions for Pascal's Triangle.
 #pragma once
 
 #include <iostream>
@@ -13,12 +12,12 @@ public:
 	vector<vector<int>> generate(int numRows)
 	{
 		vector<vector<int>> res;
-		res.push_back({ 1 });
+		res.push_back(vector<int>(1, 1)); // 1­Ó1
 		if (numRows == 1)
 		{
 			return res;
 		}
-		res.push_back({ 1, 1 });
+		res.push_back(vector<int>(2, 1)); // 2­Ó1
 		if (numRows == 2)
 		{
 			return res;

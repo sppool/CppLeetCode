@@ -14,10 +14,10 @@ public:
 	{
 		if (rowIndex == 0)
 		{
-			return { 1 };
+			return vector<int>(1, 1); // 1­Ó1
 		}
 
-		vector<int>* tmp = new vector<int>{ 1, 1 };
+		vector<int>* tmp = new vector<int>(2, 1); // 2­Ó1
 		if (rowIndex == 1)
 		{
 			return *tmp;

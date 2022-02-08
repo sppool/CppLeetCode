@@ -206,10 +206,10 @@
     <ClInclude Include="Header5.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header6.h">
+    <ClInclude Include="120. Triangle.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header7.h">
+    <ClInclude Include="45. Jump Game II.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="119. Pascal%27s Triangle II.h">

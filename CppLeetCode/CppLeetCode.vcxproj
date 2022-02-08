@@ -203,8 +203,8 @@
     <ClInclude Include="Header3.h" />
     <ClInclude Include="Header4.h" />
     <ClInclude Include="Header5.h" />
-    <ClInclude Include="Header6.h" />
-    <ClInclude Include="Header7.h" />
+    <ClInclude Include="120. Triangle.h" />
+    <ClInclude Include="45. Jump Game II.h" />
     <ClInclude Include="119. Pascal%27s Triangle II.h" />
     <ClInclude Include="118. Pascal%27s Triangle.h" />
   </ItemGroup>
