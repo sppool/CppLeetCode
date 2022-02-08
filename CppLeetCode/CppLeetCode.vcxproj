@@ -196,7 +196,7 @@
     <ClInclude Include="198. House Robber.h" />
     <ClInclude Include="213. House Robber II.h" />
     <ClInclude Include="740. Delete and Earn.h" />
-    <ClInclude Include="Header8.h" />
+    <ClInclude Include="55. Jump Game.h" />
     <ClInclude Include="Header9.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
