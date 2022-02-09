@@ -191,10 +191,10 @@
     <ClInclude Include="202. Happy Number.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header1.h">
+    <ClInclude Include="226. Invert Binary Tree.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header2.h">
+    <ClInclude Include="617. Merge Two Binary Trees.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="190. Reverse Bits.h">

@@ -198,8 +198,8 @@
     <ClInclude Include="740. Delete and Earn.h" />
     <ClInclude Include="55. Jump Game.h" />
     <ClInclude Include="202. Happy Number.h" />
-    <ClInclude Include="Header1.h" />
-    <ClInclude Include="Header2.h" />
+    <ClInclude Include="226. Invert Binary Tree.h" />
+    <ClInclude Include="617. Merge Two Binary Trees.h" />
     <ClInclude Include="190. Reverse Bits.h" />
     <ClInclude Include="171. Excel Sheet Column Number.h" />
     <ClInclude Include="237. Delete Node in a Linked List.h" />
