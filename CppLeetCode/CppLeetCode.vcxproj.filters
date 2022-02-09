@@ -230,13 +230,13 @@
     <ClInclude Include="Header9.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header0.h">
+    <ClInclude Include="1929. Concatenation of Array.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header1.h">
+    <ClInclude Include="1920. Build Array from Permutation.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header2.h">
+    <ClInclude Include="1480. Running Sum of 1d Array.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header3.h">

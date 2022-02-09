@@ -208,9 +208,9 @@
     <ClInclude Include="119. Pascal%27s Triangle II.h" />
     <ClInclude Include="118. Pascal%27s Triangle.h" />
     <ClInclude Include="2161. Partition Array According to Given Pivot.h" />
-    <ClInclude Include="Header0.h" />
-    <ClInclude Include="Header1.h" />
-    <ClInclude Include="Header2.h" />
+    <ClInclude Include="1929. Concatenation of Array.h" />
+    <ClInclude Include="1920. Build Array from Permutation.h" />
+    <ClInclude Include="1480. Running Sum of 1d Array.h" />
     <ClInclude Include="Header3.h" />
     <ClInclude Include="Header4.h" />
     <ClInclude Include="Header5.h" />
