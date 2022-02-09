@@ -211,7 +211,7 @@
     <ClInclude Include="1929. Concatenation of Array.h" />
     <ClInclude Include="1920. Build Array from Permutation.h" />
     <ClInclude Include="1480. Running Sum of 1d Array.h" />
-    <ClInclude Include="Header3.h" />
+    <ClInclude Include="1828. Queries on Number of Points Inside a Circle.h" />
     <ClInclude Include="Header4.h" />
     <ClInclude Include="Header5.h" />
     <ClInclude Include="Header6.h" />

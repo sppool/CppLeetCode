@@ -239,7 +239,7 @@
     <ClInclude Include="1480. Running Sum of 1d Array.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header3.h">
+    <ClInclude Include="1828. Queries on Number of Points Inside a Circle.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header4.h">
