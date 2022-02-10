@@ -217,7 +217,7 @@
     <ClInclude Include="1614. Maximum Nesting Depth of the Parentheses.h" />
     <ClInclude Include="1769. Minimum Number of Operations to Move All Balls to Each Box.h" />
     <ClInclude Include="1672. Richest Customer Wealth.h" />
-    <ClInclude Include="Header0.h" />
+    <ClInclude Include="152. Maximum Product Subarray.h" />
     <ClInclude Include="Header1.h" />
     <ClInclude Include="Header2.h" />
     <ClInclude Include="Header3.h" />

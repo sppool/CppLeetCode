@@ -1,4 +1,4 @@
-//Runtime: 100 ms, faster than 87.84 % of C++ online submissions for Maximum Subarray.
+//Runtime: 96 ms, faster than 94.20 % of C++ online submissions for Maximum Subarray.
 //Memory Usage: 67.8 MB, less than 11.58 % of C++ online submissions for Maximum Subarray.
 
 #pragma once
@@ -27,10 +27,7 @@ public:
 				sum += nums[i];
 			}
 
-			if (sum > max)
-			{
-				max = sum;
-			}
+			max = (sum > max) ? sum : max;
 		}
 
 		return max;
