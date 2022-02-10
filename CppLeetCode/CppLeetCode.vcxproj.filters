@@ -227,7 +227,7 @@
     <ClInclude Include="1672. Richest Customer Wealth.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header9.h">
+    <ClInclude Include="1688. Count of Matches in Tournament.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="1929. Concatenation of Array.h">
@@ -248,13 +248,13 @@
     <ClInclude Include="1486. XOR Operation in an Array.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header6.h">
+    <ClInclude Include="1470. Shuffle the Array.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header7.h">
+    <ClInclude Include="1221. Split a String in Balanced Strings.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header8.h">
+    <ClInclude Include="1431. Kids With the Greatest Number of Candies.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="152. Maximum Product Subarray.h">
@@ -272,7 +272,25 @@
     <ClInclude Include="Header4.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="2125. Number of Laser Beams in a Bank.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header0.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header7.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header8.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header9.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
     <ClInclude Include="Header5.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header6.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

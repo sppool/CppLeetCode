@@ -218,10 +218,16 @@
     <ClInclude Include="1769. Minimum Number of Operations to Move All Balls to Each Box.h" />
     <ClInclude Include="1672. Richest Customer Wealth.h" />
     <ClInclude Include="152. Maximum Product Subarray.h" />
+    <ClInclude Include="Header0.h" />
     <ClInclude Include="Header1.h" />
     <ClInclude Include="Header2.h" />
     <ClInclude Include="Header3.h" />
     <ClInclude Include="Header4.h" />
+    <ClInclude Include="2125. Number of Laser Beams in a Bank.h" />
+    <ClInclude Include="1470. Shuffle the Array.h" />
+    <ClInclude Include="1221. Split a String in Balanced Strings.h" />
+    <ClInclude Include="1431. Kids With the Greatest Number of Candies.h" />
+    <ClInclude Include="1688. Count of Matches in Tournament.h" />
     <ClInclude Include="Header5.h" />
     <ClInclude Include="Header6.h" />
     <ClInclude Include="Header7.h" />
