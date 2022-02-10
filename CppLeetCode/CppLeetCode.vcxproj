@@ -212,6 +212,15 @@
     <ClInclude Include="1920. Build Array from Permutation.h" />
     <ClInclude Include="1480. Running Sum of 1d Array.h" />
     <ClInclude Include="1828. Queries on Number of Points Inside a Circle.h" />
+    <ClInclude Include="2006. Count Number of Pairs With Absolute Difference K.h" />
+    <ClInclude Include="1486. XOR Operation in an Array.h" />
+    <ClInclude Include="1614. Maximum Nesting Depth of the Parentheses.h" />
+    <ClInclude Include="1769. Minimum Number of Operations to Move All Balls to Each Box.h" />
+    <ClInclude Include="1672. Richest Customer Wealth.h" />
+    <ClInclude Include="Header0.h" />
+    <ClInclude Include="Header1.h" />
+    <ClInclude Include="Header2.h" />
+    <ClInclude Include="Header3.h" />
     <ClInclude Include="Header4.h" />
     <ClInclude Include="Header5.h" />
     <ClInclude Include="Header6.h" />

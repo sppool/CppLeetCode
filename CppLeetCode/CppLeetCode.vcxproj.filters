@@ -218,13 +218,13 @@
     <ClInclude Include="2161. Partition Array According to Given Pivot.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header6.h">
+    <ClInclude Include="1614. Maximum Nesting Depth of the Parentheses.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header7.h">
+    <ClInclude Include="1769. Minimum Number of Operations to Move All Balls to Each Box.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header8.h">
+    <ClInclude Include="1672. Richest Customer Wealth.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header9.h">
@@ -240,6 +240,33 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="1828. Queries on Number of Points Inside a Circle.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="2006. Count Number of Pairs With Absolute Difference K.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="1486. XOR Operation in an Array.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header6.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header7.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header8.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header0.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header3.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header4.h">
