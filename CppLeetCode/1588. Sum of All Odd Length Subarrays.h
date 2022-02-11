@@ -31,13 +31,13 @@ public:
 	vector<int> SubArr(int n, int sub_size)
 	{
 		vector<int> res = vector<int>(n, 1);
-		if (n > sub_size)
-		{
+			// ³Ì°ª­­¨î min(sub_size - 1, n - sub_size)
+			int v1 = sub_size - 1;
+			int v2 = n - sub_size;
 			for (int i = 0; i < n; i++)
 			{
-				res[i] += min(min(sub_size - 1, n - sub_size), min(i, n - 1 - i));
+				res[i] += min(min(v1, v2), min(i, n - 1 - i));
 			}
-		}
 		return res;
 	}
 
