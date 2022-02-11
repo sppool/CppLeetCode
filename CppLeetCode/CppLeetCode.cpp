@@ -13,12 +13,5 @@ int main()
 
 	//Solution ans;
 
-	string s = "0123456789";
-	cout << s << endl;
-
-	s.replace(0, 2, "Qoo");
-
-		cout<< s<<endl;
-
 	cout << "============================= End =============================" << endl;
 }

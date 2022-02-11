@@ -278,16 +278,43 @@
     <ClInclude Include="2160. Minimum Sum of Four Digit Number After Splitting Digits.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="1365. How Many Numbers Are Smaller Than the Current Number.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="1913. Maximum Product Difference Between Two Pairs.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="1342. Number of Steps to Reduce a Number to Zero.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="1281. Subtract the Product and Sum of Digits of an Integer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="1662. Check If Two String Arrays are Equivalent.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
     <ClInclude Include="Header7.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header8.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header9.h">
+    <ClInclude Include="Header0.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="1281. Subtract the Product and Sum of Digits of an Integer.h">
+    <ClInclude Include="Header1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header3.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header4.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header5.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header6.h">
