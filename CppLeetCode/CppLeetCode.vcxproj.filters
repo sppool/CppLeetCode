@@ -266,10 +266,10 @@
     <ClInclude Include="1588. Sum of All Odd Length Subarrays.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header3.h">
+    <ClInclude Include="1108. Defanging an IP Address.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header4.h">
+    <ClInclude Include="2089. Find Target Indices After Sorting Array.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="2125. Number of Laser Beams in a Bank.h">
@@ -287,7 +287,7 @@
     <ClInclude Include="Header9.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header5.h">
+    <ClInclude Include="1281. Subtract the Product and Sum of Digits of an Integer.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header6.h">
