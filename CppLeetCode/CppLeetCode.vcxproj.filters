@@ -260,10 +260,10 @@
     <ClInclude Include="152. Maximum Product Subarray.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header1.h">
+    <ClInclude Include="2011. Final Value of Variable After Performing Operations.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header2.h">
+    <ClInclude Include="1588. Sum of All Odd Length Subarrays.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header3.h">
@@ -275,7 +275,7 @@
     <ClInclude Include="2125. Number of Laser Beams in a Bank.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header0.h">
+    <ClInclude Include="2160. Minimum Sum of Four Digit Number After Splitting Digits.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header7.h">

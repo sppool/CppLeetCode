@@ -218,9 +218,9 @@
     <ClInclude Include="1769. Minimum Number of Operations to Move All Balls to Each Box.h" />
     <ClInclude Include="1672. Richest Customer Wealth.h" />
     <ClInclude Include="152. Maximum Product Subarray.h" />
-    <ClInclude Include="Header0.h" />
-    <ClInclude Include="Header1.h" />
-    <ClInclude Include="Header2.h" />
+    <ClInclude Include="2160. Minimum Sum of Four Digit Number After Splitting Digits.h" />
+    <ClInclude Include="2011. Final Value of Variable After Performing Operations.h" />
+    <ClInclude Include="1588. Sum of All Odd Length Subarrays.h" />
     <ClInclude Include="Header3.h" />
     <ClInclude Include="Header4.h" />
     <ClInclude Include="2125. Number of Laser Beams in a Bank.h" />
