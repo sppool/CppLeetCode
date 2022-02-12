@@ -237,10 +237,10 @@
     <ClInclude Include="Header2.h" />
     <ClInclude Include="Header3.h" />
     <ClInclude Include="Header4.h" />
-    <ClInclude Include="Header5.h" />
-    <ClInclude Include="Header6.h" />
-    <ClInclude Include="Header7.h" />
-    <ClInclude Include="Header8.h" />
+    <ClInclude Include="1844. Replace All Digits with Characters.h" />
+    <ClInclude Include="419. Battleships in a Board.h" />
+    <ClInclude Include="1748. Sum of Unique Elements.h" />
+    <ClInclude Include="1812. Determine Color of a Chessboard Square.h" />
     <ClInclude Include="1342. Number of Steps to Reduce a Number to Zero.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
