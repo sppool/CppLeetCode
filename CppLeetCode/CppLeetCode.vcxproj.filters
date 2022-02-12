@@ -302,6 +302,33 @@
     <ClInclude Include="Header0.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="1266. Minimum Time Visiting All Points.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="461. Hamming Distance.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="1877. Minimize Maximum Pair Sum in Array.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="200. Number of Islands.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="1844. Replace All Digits with Characters.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="419. Battleships in a Board.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header7.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header8.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="804. Unique Morse Code Words.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
     <ClInclude Include="Header1.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
@@ -314,10 +341,13 @@
     <ClInclude Include="Header4.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="1844. Replace All Digits with Characters.h">
+    <ClInclude Include="Header5.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="419. Battleships in a Board.h">
+    <ClInclude Include="Header6.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header9.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
