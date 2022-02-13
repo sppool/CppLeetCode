@@ -320,10 +320,10 @@
     <ClInclude Include="419. Battleships in a Board.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header7.h">
+    <ClInclude Include="1854. Maximum Population Year.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header8.h">
+    <ClInclude Include="1720. Decode XORed Array.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="804. Unique Morse Code Words.h">
@@ -344,10 +344,10 @@
     <ClInclude Include="Header5.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header6.h">
+    <ClInclude Include="290. Word Pattern.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header9.h">
+    <ClInclude Include="1863. Sum of All Subset XOR Totals.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
