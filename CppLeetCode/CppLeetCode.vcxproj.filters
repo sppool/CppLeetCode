@@ -329,6 +329,39 @@
     <ClInclude Include="804. Unique Morse Code Words.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="229. Majority Element II.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="203. Remove Linked List Elements.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="142. Linked List Cycle II.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="141. Linked List Cycle.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="88. Merge Sorted Array.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="290. Word Pattern.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="1863. Sum of All Subset XOR Totals.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header6.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header7.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header8.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="219. Contains Duplicate II.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
     <ClInclude Include="Header1.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
@@ -342,12 +375,6 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Header5.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="290. Word Pattern.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="1863. Sum of All Subset XOR Totals.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
