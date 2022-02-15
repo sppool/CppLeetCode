@@ -350,7 +350,7 @@
     <ClInclude Include="1863. Sum of All Subset XOR Totals.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Header6.h">
+    <ClInclude Include="172. Factorial Trailing Zeroes.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="1985. Find the Kth Largest Integer in the Array.h">

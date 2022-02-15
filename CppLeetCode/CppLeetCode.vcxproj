@@ -257,7 +257,7 @@
     <ClInclude Include="Header3.h" />
     <ClInclude Include="Header4.h" />
     <ClInclude Include="Header5.h" />
-    <ClInclude Include="Header6.h" />
+    <ClInclude Include="172. Factorial Trailing Zeroes.h" />
     <ClInclude Include="1985. Find the Kth Largest Integer in the Array.h" />
     <ClInclude Include="217. Contains Duplicate.h" />
     <ClInclude Include="219. Contains Duplicate II.h" />
