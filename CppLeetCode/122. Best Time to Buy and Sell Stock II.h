@@ -1,5 +1,5 @@
-Runtime: 7 ms, faster than 66.62 % of C++ online submissions for Best Time to Buyand Sell Stock II.
-Memory Usage : 13 MB, less than 86.43 % of C++ online submissions for Best Time to Buyand Sell Stock II.
+//Runtime: 7 ms, faster than 66.62 % of C++ online submissions for Best Time to Buyand Sell Stock II.
+//Memory Usage: 13 MB, less than 86.43 % of C++ online submissions for Best Time to Buyand Sell Stock II.
 
 #pragma once
 
