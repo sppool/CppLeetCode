@@ -31,7 +31,7 @@ public:
 		int i = 0;
 		while (res[i] == '0')
 		{
-			i++;
+			++i;
 		}
 		res = res.substr(i);
 

@@ -38,7 +38,7 @@ public:
 		int ri;
 		int li;
 		// 取得正負號分界 <-0 & 0 or 0->
-		for (int i =0; i<nums.size();i++)
+		for (int i =0; i<nums.size();++i)
 		{
 			if (nums[i] >= 0)
 			{
