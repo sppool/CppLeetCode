@@ -13,7 +13,7 @@ public:
 	int minTimeToVisitAllPoints(vector<vector<int>>& points)
 	{
 		int res = 0;
-		for (int i = 0; i < points.size() - 1; i++)
+		for (int i = 0; i < points.size() - 1; ++i)
 		{
 			res += TwoPointStep(points[i], points[i + 1]);
 		}

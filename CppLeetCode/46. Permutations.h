@@ -30,7 +30,7 @@ public:
 
 		else
 		{
-			for (int i = 0; i < nums.size(); i++)
+			for (int i = 0; i < nums.size(); ++i)
 			{
 				sublst.push_back(nums[i]);
 				vector<int> new_nums = nums; // 複製一份nums 並刪除取的元素

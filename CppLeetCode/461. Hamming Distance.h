@@ -14,7 +14,7 @@ public:
     {
         int res = 0;
 
-        for (int i = 0; i < 32; i++)
+        for (int i = 0; i < 32; ++i)
         {
             int x_ = x >> i;
             int y_ = y >> i;

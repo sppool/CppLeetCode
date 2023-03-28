@@ -15,11 +15,11 @@ public:
 		int m = matrix.size();
 		int n = matrix[0].size();
 
-		for (int j = 0; j < m; j++)
+		for (int j = 0; j < m; ++j)
 		{
 			if (matrix[j][0] <= target && target <= matrix[j][n - 1])
 			{
-				for (int i = 0; i < n; i++)
+				for (int i = 0; i < n; ++i)
 				{
 					if (matrix[j][i] == target)
 					{

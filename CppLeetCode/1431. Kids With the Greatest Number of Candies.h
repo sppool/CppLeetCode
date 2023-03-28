@@ -21,7 +21,7 @@ public:
 			mx = max(mx, n);
 		}
 
-		for (int i = 0; i < candies.size(); i++)
+		for (int i = 0; i < candies.size(); ++i)
 		{
 			res[i] = (candies[i] + extraCandies >= mx);
 		}

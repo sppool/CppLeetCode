@@ -28,7 +28,7 @@ public:
 		{
 			vector<int>* res = new vector<int>;
 			res->push_back(1); // ¶}ÀY
-			for (int i = 1; i < tmp->size(); i++)
+			for (int i = 1; i < tmp->size(); ++i)
 			{
 				res->push_back((*tmp)[i - 1] + (*tmp)[i]);
 			}

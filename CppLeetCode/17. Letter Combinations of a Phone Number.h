@@ -29,12 +29,12 @@ public:
 			string* p = new string[1];
 			p[0] = "";
 
-			for (int i = 0; i < digits.size(); i++)
+			for (int i = 0; i < digits.size(); ++i)
 			{
 				p = func(p, n, digits[i]);
 			}
 
-			for (int i = 0; i < n; i++)
+			for (int i = 0; i < n; ++i)
 			{
 				res.push_back(p[i]);
 			}
@@ -50,9 +50,9 @@ public:
 
 		string* new_p = new string[in_len * len];
 
-		for (int i = 0; i < in_len; i++)
+		for (int i = 0; i < in_len; ++i)
 		{
-			for (int j = 0; j < len; j++)
+			for (int j = 0; j < len; ++j)
 			{
 				int ind = (i * len) + j;
 				new_p[ind] = in[i] + dict[c][j];

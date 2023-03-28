@@ -28,28 +28,28 @@ public:
 		{
 			while (j < r)
 			{
-				j++;
+				++j;
 				res.push_back(matrix[i][j]);
 			}
-			r--;
+			--r;
 			while (i < d)
 			{
-				i++;
+				++i;
 				res.push_back(matrix[i][j]);
 			}
-			d--;
+			--d;
 			while (j > l)
 			{
 				j--;
 				res.push_back(matrix[i][j]);
 			}
-			l++;
+			++l;
 			while (i > u)
 			{
 				i--;
 				res.push_back(matrix[i][j]);
 			}
-			u++;
+			++u;
 
 			if ((r < l) && (d < u))
 			{

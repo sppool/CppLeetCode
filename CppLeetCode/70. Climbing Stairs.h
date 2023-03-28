@@ -21,7 +21,7 @@ public:
         int fx1 = 1; // 1¶¥
         int fx = fx1 + fx2;
 
-        for (int i = 2; i < n; i++)
+        for (int i = 2; i < n; ++i)
         {
             fx2 = fx1;
             fx1 = fx;

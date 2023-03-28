@@ -15,7 +15,7 @@ public:
 		int sum = 0;
 		int val;
 
-		for (int i = 0; i < prices.size() - 1; i++)
+		for (int i = 0; i < prices.size() - 1; ++i)
 		{
 			val = prices[i + 1] - prices[i];
 			sum += (val > 0) ? val : 0;

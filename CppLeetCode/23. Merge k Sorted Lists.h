@@ -37,7 +37,7 @@ public:
 		// lists 中超過兩個兩兩整合 在遞迴!!
 		vector<ListNode*> res;
 
-		for (int i = 0; i < (lists.size() / 2); i++)
+		for (int i = 0; i < (lists.size() / 2); ++i)
 		{
 			res.push_back(mergeTwoLists(lists[2 * i], lists[(2 * i) + 1]));
 		}

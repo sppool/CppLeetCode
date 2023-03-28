@@ -20,19 +20,19 @@ public:
 		// ЧΘ翴程㎝
 		res[0][0] = grid[0][0];
 		// ЧΘY禸程㎝
-		for (int j = 1; j < m; j++)
+		for (int j = 1; j < m; ++j)
 		{
 			res[j][0] = res[j - 1][0] + grid[j][0];
 		}
 		// ЧΘX禸程㎝
-		for (int i = 1; i < n; i++)
+		for (int i = 1; i < n; ++i)
 		{
 			res[0][i] = res[0][i - 1] + grid[0][i];
 		}
 		// ЧΘㄤ程㎝
-		for (int j = 1; j < m; j++)
+		for (int j = 1; j < m; ++j)
 		{
-			for (int i = 1; i < n; i++)
+			for (int i = 1; i < n; ++i)
 			{
 				if (res[j - 1][i] < res[j][i - 1])
 				{

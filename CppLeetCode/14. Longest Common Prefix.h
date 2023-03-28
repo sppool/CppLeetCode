@@ -21,7 +21,7 @@ public:
 		int n = strs.size();
 		int l;
 		// 獲取最短的字串長度
-		for (int i = 1; i < n; i++)
+		for (int i = 1; i < n; ++i)
 		{
 			l = strs[i].size();
 			if (l < min_str)
@@ -32,11 +32,11 @@ public:
 		//cout << "min: " << min_str << endl;
 		int res_l = 0;
 		bool break_ = false;
-		for (int i = 0; i < l; i++)
+		for (int i = 0; i < l; ++i)
 		{
 			char check = strs[0][i];
 
-			for (int j = 1; j < n; j++)
+			for (int j = 1; j < n; ++j)
 			{
 				if (strs[j][i] != check)
 				{

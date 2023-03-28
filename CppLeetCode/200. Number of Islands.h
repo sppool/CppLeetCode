@@ -18,9 +18,9 @@ public:
 		n = grid[0].size();
 
 		int res = 0;
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; ++i)
 		{
-			for (int j = 0; j < m; j++)
+			for (int j = 0; j < m; ++j)
 			{
 				if (grid[j][i] == '1')
 				{

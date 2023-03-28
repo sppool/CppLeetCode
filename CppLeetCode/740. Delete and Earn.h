@@ -27,7 +27,7 @@ public:
 		map<int, int> dict; // 利用map本身保持有序 小到大
 		vector<int> vals;
 
-		for (int i = 0; i < nums.size(); i++)
+		for (int i = 0; i < nums.size(); ++i)
 		{
 			//重新插入的key不會被覆蓋
 			//dict.insert(pair<int, int>(nums[i], 0));
@@ -62,7 +62,7 @@ public:
 		int arr_yes = nums[0];
 		int tmp_no;
 
-		for (int i = 1; i < n; i++)
+		for (int i = 1; i < n; ++i)
 		{
 			tmp_no = arr_no;
 			arr_no = (arr_no < arr_yes) ? arr_yes : arr_no;

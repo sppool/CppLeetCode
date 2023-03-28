@@ -27,7 +27,7 @@ public:
 
 		while (dis < (n - 1))
 		{
-			for (int i = st_ind; i <= dis; i++)
+			for (int i = st_ind; i <= dis; ++i)
 			{
 				new_dis = max(new_dis, (nums[i] + i));
 			}

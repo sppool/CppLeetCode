@@ -13,10 +13,10 @@ public:
 	vector<vector<int>> generateMatrix(int n)
 	{
 		vector<vector<int>> res;
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; ++i)
 		{
 			vector<int>* tmp = new vector<int>;
-			for (int j = 0; j < n; j++)
+			for (int j = 0; j < n; ++j)
 			{
 				tmp->push_back(0);
 			}
@@ -30,26 +30,26 @@ public:
 		int tar = n * n;
 		while (num <= tar)
 		{
-			for (int i = l; i <= r; i++)
+			for (int i = l; i <= r; ++i)
 			{
 				res[t][i] = num++;
 			}
-			t++;
-			for (int i = t; i <= b; i++)
+			++t;
+			for (int i = t; i <= b; ++i)
 			{
 				res[i][r] = num++;
 			}
-			r--;
-			for (int i = r; i >= l; i--)
+			--r;
+			for (int i = r; i >= l; --i)
 			{
 				res[b][i] = num++;
 			}
-			b--;
-			for (int i = b; i >= t; i--)
+			--b;
+			for (int i = b; i >= t; --i)
 			{
 				res[i][l] = num++;
 			}
-			l++;
+			++l;
 		}
 
 		return res;

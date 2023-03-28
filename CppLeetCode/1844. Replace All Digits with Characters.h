@@ -14,7 +14,7 @@ public:
     string replaceDigits(string s) 
     {
         int n = s.length() / 2;
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; ++i)
         {
             s[2 * i + 1] = s[2 * i] + stoi(s.substr(2 * i + 1, 1));
         }

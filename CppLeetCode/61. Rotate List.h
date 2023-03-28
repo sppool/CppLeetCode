@@ -42,7 +42,7 @@ public:
 		k = k % num;
 
 		// 移動tmp 到要截斷的地方
-		for (int i = 0; i < (num - k); i++) 
+		for (int i = 0; i < (num - k); ++i) 
 		{
 			tmp = tmp->next;
 		}

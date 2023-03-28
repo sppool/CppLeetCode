@@ -18,7 +18,7 @@ public:
 		map <int, int> dict;
 		sort(copy.begin(), copy.end());
 
-		for (int i = 0; i < copy.size(); i++)
+		for (int i = 0; i < copy.size(); ++i)
 		{
 			if (dict.count(copy[i]) != 1)
 			{
@@ -27,7 +27,7 @@ public:
 		}
 		vector<int> res = vector<int>(nums.size());
 
-		for (int i = 0; i < nums.size(); i++)
+		for (int i = 0; i < nums.size(); ++i)
 		{
 			res[i] = dict[nums[i]];
 		}

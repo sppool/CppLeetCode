@@ -16,7 +16,7 @@ public:
 	{
 		int l = columnTitle.length();
 		int sum = 0;
-		for (int i = 1; i <= l; i++)
+		for (int i = 1; i <= l; ++i)
 		{
 			sum += (pow(26, i - 1) * (char2int(columnTitle[l - i])));
 		}

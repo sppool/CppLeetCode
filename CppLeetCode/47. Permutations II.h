@@ -17,7 +17,7 @@ public:
 	{
 		map<int, int> dic; // 一個紀錄數列有的元素和數目的dict
 		vector<int> nums_only; // 一個數列的集合(不重複)
-		for (int i = 0; i < nums.size(); i++)
+		for (int i = 0; i < nums.size(); ++i)
 		{
 			if (dic.find(nums[i]) == dic.end())
 			{
@@ -45,7 +45,7 @@ public:
 
 		else
 		{
-			for (int i = 0; i < nums_only.size(); i++)
+			for (int i = 0; i < nums_only.size(); ++i)
 			{
 				map<int, int> new_dic = dic;
 				vector<int> new_nums_only = nums_only; // 複製一份nums 並刪除取的元素

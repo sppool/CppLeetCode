@@ -22,7 +22,7 @@ public:
 		ArrCarry(sumArr);
 
 		string res = "";
-		for (int i = sumArr.size() - 1; i >= 0; i--)
+		for (int i = sumArr.size() - 1; i >= 0; --i)
 		{
 			res += to_string(sumArr[i]);
 		}
@@ -46,7 +46,7 @@ public:
 		vector<vector<int>> arr;
 		vector<int>* p;
 		int val;
-		for (int i = num1.size() - 1; i >= 0; i--)
+		for (int i = num1.size() - 1; i >= 0; --i)
 		{
 			p = new vector<int>;
 
@@ -56,7 +56,7 @@ public:
 			}
 			z++;
 
-			for (int j = num2.size() - 1; j >= 0; j--)
+			for (int j = num2.size() - 1; j >= 0; --j)
 			{
 				val = stoi(num1.substr(i, 1)) * stoi(num2.substr(j, 1));
 				(*p).push_back(val);
@@ -78,10 +78,10 @@ public:
 	{
 		vector<int> res;
 		int val;
-		for (int i = 0; i < v[0].size(); i++)
+		for (int i = 0; i < v[0].size(); ++i)
 		{
 			val = 0;
-			for (int j = 0; j < v.size(); j++)
+			for (int j = 0; j < v.size(); ++j)
 			{
 				val += v[j][i];
 			}
@@ -96,7 +96,7 @@ public:
 		v.push_back(0); // 進位使用
 		int val;
 		int ind;
-		for (int i = 0; i < v.size(); i++)
+		for (int i = 0; i < v.size(); ++i)
 		{
 			ind = 1;
 			val = v[i];

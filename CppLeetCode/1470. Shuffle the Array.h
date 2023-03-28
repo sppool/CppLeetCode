@@ -14,7 +14,7 @@ public:
 	{
 		vector<int> res = vector<int>(n * 2, 0);
 
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; ++i)
 		{
 			res[2 * i] = nums[i];
 			res[2 * i + 1] = nums[n + i];

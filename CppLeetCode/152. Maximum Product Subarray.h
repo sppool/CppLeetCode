@@ -19,7 +19,7 @@ public:
 		int res = nums[0];
 
 
-		for (int i = 1; i < nums.size(); i++)
+		for (int i = 1; i < nums.size(); ++i)
 		{
 			tmpmx = maxval;
 			tmpmn = minval;

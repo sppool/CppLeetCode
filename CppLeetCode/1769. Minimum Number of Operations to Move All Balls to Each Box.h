@@ -16,7 +16,7 @@ public:
 		vector<int>res = vector<int>(n, 0);
 
 		vector<int> BallInd;
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; ++i)
 		{
 			if (boxes[i] == '1')
 			{
@@ -24,7 +24,7 @@ public:
 			}
 		}
 
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; ++i)
 		{
 			res[i] = GetVal(BallInd, i);
 		}

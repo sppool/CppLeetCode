@@ -16,7 +16,7 @@ public:
         vector<int> res;
         map<int, int> dict;
         int find_val;
-        for (int i = 0; i < nums.size(); i++)
+        for (int i = 0; i < nums.size(); ++i)
         {
             find_val = target - nums[i];
             if (dict.count(find_val))

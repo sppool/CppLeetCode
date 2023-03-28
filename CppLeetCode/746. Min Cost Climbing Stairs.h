@@ -17,7 +17,7 @@ public:
 		int cost1 = cost[1]; // cost«e1¨B
 		int cost_ = (cost1 <= cost2) ? cost1 : cost2;
 
-		for (int i = 2; i < n; i++)
+		for (int i = 2; i < n; ++i)
 		{
 			cost_ += cost[i];
 			cost2 = cost1;

@@ -19,7 +19,7 @@ public:
         int sum;
         int len = nums.size();
         // 2.拿出第一個數，轉化為兩數和問題。注意外層迴圈到倒數第三個數即可
-        for (int i = 0; i < len - 2; i++) {
+        for (int i = 0; i < len - 2; ++i) {
             sum = 0 - nums[i];
             numsSet[0] = nums[i];
             // 3.兩數和問題
@@ -30,17 +30,17 @@ public:
                     res.push_back(numsSet);
                     // 根據題目要求，跳過重複元素
                     while (j < k && nums[j] == nums[j - 1])
-                        j++;
+                        ++j;
                     while (j < k && nums[k] == nums[k + 1])
-                        k--;
+                        --k;
                 }
                 else if (nums[j] + nums[k] < sum)
-                    j++;
+                    ++j;
                 else
-                    k--;
+                    --k;
             }
             while (i < len - 2 && nums[i + 1] == nums[i])
-                i++;
+                ++i;
         }
         return res;
     }

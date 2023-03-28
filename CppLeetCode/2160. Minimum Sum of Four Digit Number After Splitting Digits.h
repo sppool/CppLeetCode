@@ -14,7 +14,7 @@ public:
 	int minimumSum(int num)
 	{
 		vector<int> lst;
-		for (int i = 0; i < 4; i++)
+		for (int i = 0; i < 4; ++i)
 		{
 			lst.push_back(num % 10);
 			num /= 10;

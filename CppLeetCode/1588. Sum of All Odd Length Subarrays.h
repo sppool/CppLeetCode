@@ -20,7 +20,7 @@ public:
 		int n = arr.size();
 		vector<int> W_arr = CreatArr(n);
 
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; ++i)
 		{
 			res += (W_arr[i] * arr[i]);
 		}
@@ -34,7 +34,7 @@ public:
 			// ³Ì°ª­­¨î min(sub_size - 1, n - sub_size)
 			int v1 = sub_size - 1;
 			int v2 = n - sub_size;
-			for (int i = 0; i < n; i++)
+			for (int i = 0; i < n; ++i)
 			{
 				res[i] += min(min(v1, v2), min(i, n - 1 - i));
 			}
@@ -45,7 +45,7 @@ public:
 	{
 		int n = init.size();
 
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; ++i)
 		{
 			init[i] += v[i];
 		}

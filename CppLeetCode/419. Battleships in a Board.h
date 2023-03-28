@@ -15,9 +15,9 @@ public:
 		int res = 0;
 		int m = board.size();
 		int n = board[0].size();
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; ++i)
 		{
-			for (int j = 0; j < m; j++)
+			for (int j = 0; j < m; ++j)
 			{
 				if (board[j][i] == 'X')
 				{
@@ -35,7 +35,7 @@ public:
 		int m = board.size();
 		int n = board[0].size();
 
-		for (int i = i_; i < n; i++)
+		for (int i = i_; i < n; ++i)
 		{
 			if (board[j_][i] == 'X')
 			{
@@ -46,7 +46,7 @@ public:
 				break;
 			}
 		}
-		for (int j = j_ + 1; j < m; j++)
+		for (int j = j_ + 1; j < m; ++j)
 		{
 			if (board[j][i_] == 'X')
 			{

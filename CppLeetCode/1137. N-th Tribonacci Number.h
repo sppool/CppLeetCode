@@ -26,7 +26,7 @@ public:
 		int tx1 = 1; // f(2), f(x-1)
 		int tx = tx1 + tx2 + tx3; // f(x)
 
-		for (int i = 3; i < n; i++)
+		for (int i = 3; i < n; ++i)
 		{
 			tx3 = tx2;
 			tx2 = tx1;

@@ -17,7 +17,7 @@ public:
 		int r = n - 1;
 		int l = 0;
 
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; ++i)
 		{
 			if (nums[i] > pivot)
 			{

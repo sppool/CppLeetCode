@@ -27,7 +27,7 @@ public:
 		{
 			vector<int>* tmp = new vector<int>;
 			tmp->push_back(1); // ¶}ÀY
-			for (int i = 1; i < res.rbegin()->size(); i++)
+			for (int i = 1; i < res.rbegin()->size(); ++i)
 			{
 				tmp->push_back((*res.rbegin())[i - 1] + (*res.rbegin())[i]);
 			}

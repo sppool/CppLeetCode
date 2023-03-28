@@ -31,9 +31,9 @@ public:
 		int t;
 		int l;
 		// 其餘為M[x][y] =  M[x-1][y] + M[x][y-1]
-		for (int i = 0; i < m; i++)
+		for (int i = 0; i < m; ++i)
 		{
-			for (int j = 0; j < n; j++)
+			for (int j = 0; j < n; ++j)
 			{
 				if (i == 0 && j == 0) // pass第一個
 				{

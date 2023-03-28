@@ -25,7 +25,7 @@ public:
 		int arr_yes = nums[0];
 		int tmp_no;
 
-		for (int i = 1; i < n; i++)
+		for (int i = 1; i < n; ++i)
 		{
 			tmp_no = arr_no;
 			arr_no = (arr_no < arr_yes) ? arr_yes : arr_no;

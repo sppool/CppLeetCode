@@ -31,7 +31,7 @@ public:
 		}
 
 		int res = 0;
-		for (int i = 1; i < n; i++)
+		for (int i = 1; i < n; ++i)
 		{
 			res += rowcount[i] * rowcount[i-1];
 		}

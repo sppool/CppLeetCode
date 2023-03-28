@@ -18,19 +18,19 @@ public:
 			res[i] = new int[n];
 		}
 		// x=0, y=0 都為1
-		for (int i = 0; i < m; i++)
+		for (int i = 0; i < m; ++i)
 		{
 			res[i][0] = 1;
 		}
-		for (int j = 0; j < n; j++)
+		for (int j = 0; j < n; ++j)
 		{
 			res[0][j] = 1;
 		}
 
 		// 其餘為M[x][y] =  M[x-1][y] + M[x][y-1]
-		for (int i = 1; i < m; i++)
+		for (int i = 1; i < m; ++i)
 		{
-			for (int j = 1; j < n; j++)
+			for (int j = 1; j < n; ++j)
 			{
 				res[i][j] += (res[i][j - 1] + res[i - 1][j]);
 			}

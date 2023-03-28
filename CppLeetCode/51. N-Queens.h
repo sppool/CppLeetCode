@@ -35,7 +35,7 @@ public:
 			return;
 		}
 
-		for (int i = 0; i < n; i++) // 排列 y = row, x = 0 ~ n-1
+		for (int i = 0; i < n; ++i) // 排列 y = row, x = 0 ~ n-1
 		{
 			if (arr[row][i] == '.')
 			{
@@ -58,7 +58,7 @@ public:
 		arr[y][x] = 'Q';
 		int x1 = x;
 		int x2 = x;
-		for (int j = y + 1; j < n; j++)
+		for (int j = y + 1; j < n; ++j)
 		{
 			arr[j][x] = 'x'; // 不能放置的記號
 			x1++;
@@ -77,9 +77,9 @@ public:
 
 	void res_pushback(vector<string>& arr, int n)
 	{
-		for (int j = 0; j < n; j++)
+		for (int j = 0; j < n; ++j)
 		{
-			for (int i = 0; i < n; i++) // 找 true
+			for (int i = 0; i < n; ++i) // 找 true
 			{
 				arr[j][i] = (arr[j][i] == 'Q') ? 'Q' : '.';
 			}

@@ -39,7 +39,7 @@ public:
 		int arr_yes = nums[0];
 		int tmp_no;
 
-		for (int i = 1; i < n-1; i++)
+		for (int i = 1; i < n-1; ++i)
 		{
 			tmp_no = arr_no;
 			arr_no = (arr_no < arr_yes) ? arr_yes : arr_no;
@@ -51,7 +51,7 @@ public:
 		arr_no = 0;
 		arr_yes = nums[1];
 
-		for (int i = 2; i < n; i++)
+		for (int i = 2; i < n; ++i)
 		{
 			tmp_no = arr_no;
 			arr_no = (arr_no < arr_yes) ? arr_yes : arr_no;

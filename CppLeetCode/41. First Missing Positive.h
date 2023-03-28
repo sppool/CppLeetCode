@@ -23,7 +23,7 @@ public:
 		}
 
 		int val;
-		for (auto i = 0; i < n; i++)
+		for (auto i = 0; i < n; ++i)
 		{
 			val = abs(nums[i]);
 			if (1 <= val && val <= n)
@@ -32,7 +32,7 @@ public:
 			}
 		}
 
-		for (auto i = 0; i < n; i++)
+		for (auto i = 0; i < n; ++i)
 		{
 			if (nums[i] > 0)
 			{

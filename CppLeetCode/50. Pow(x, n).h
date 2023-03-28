@@ -15,14 +15,14 @@ public:
 		vector<int> v = getbit(n);
 		vector<double> PowV;
 		double tmp = x;
-		for (int i = 0; i < v.size(); i++)
+		for (int i = 0; i < v.size(); ++i)
 		{
 			PowV.push_back(tmp);
 			tmp *= tmp;
 		}
 		tmp = 1;
 
-		for (int i = 0; i < v.size(); i++)
+		for (int i = 0; i < v.size(); ++i)
 		{
 			if (v[i])
 			{
@@ -42,7 +42,7 @@ public:
 	{
 		vector<int> v;
 		long val = abs((long)n);
-		for (int i = 0; i < 32; i++)
+		for (int i = 0; i < 32; ++i)
 		{	
 			if (val >= pow(2, i))
 			v.push_back(val >> i & 1);

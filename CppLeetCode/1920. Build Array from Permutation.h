@@ -15,7 +15,7 @@ public:
         int n = nums.size();
         vector<int> res = vector<int>(n, 0);
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; ++i)
         {
             res[i] = nums[nums[i]];
         }

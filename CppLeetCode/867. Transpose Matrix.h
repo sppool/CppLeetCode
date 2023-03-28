@@ -17,9 +17,9 @@ public:
 		cout << m << " - " << n << endl;
 		vector<vector<int>> res;
 		vector<int>* tmp = new vector<int>[n];
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; ++i)
 		{
-			for (int j = 0; j < m; j++)
+			for (int j = 0; j < m; ++j)
 			{
 				tmp[i].push_back(matrix[j][i]);
 			}
